@@ -47,15 +47,22 @@ overflow: auto;
 }
 #corolla{
     width: 100%;
+    height:325px;
     background-color: antiquewhite;
 }
-
+#corolla .image{
+ background-color: #50577A;
+}
 #corolla img {
-    background-color: #50577A;
+   
     width: 50%;
-    float: left; 
+     height:325px;
+    float: left;
+    object-fit: cover;
 }
 #corolla .text  {
+    display:grid;
+  place-items:center;
     width: 50%;
    float: right;
    
