@@ -78,10 +78,13 @@ overflow: auto;
 
 footer{
     background-color: #444;
-    color:aliceblue;
-    margin-top: 20px;
-    border-style: solid none none;
+    color:aliceblue; 
     height: 500;
+}
+footer .const{
+    background-color:#fff;
+    margin-top: 20px;
+    height:5px;
 }
 footer .company {
     display: inline;
@@ -103,3 +106,22 @@ footer ul li a{
     padding: 15px 30px;
     text-align: center;
 }
+/*Cartools*/
+.carmain{
+    position: relative;
+  
+    height: 160px;
+}
+.carmain .climage{
+    padding: 10px 40px 10px 10px;
+    float: left;
+}
+.climage img{
+    width: 300px;
+}
+.carmain .textdiv{
+    width:65%;
+    float: right;
+    padding: 0 0 0 20px;
+}
+
