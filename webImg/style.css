@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+  
+#navbar{
+background-color:#50577A;
+color: aliceblue;
+overflow: auto;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none; /*linknii urd taliin temdegt arilgah*/
+     color:aliceblue;
+}
+
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 26px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+#navbar ul li a:hover {
+  background: #444;
+  color: #dfd0c2;
+}
+#back {
+    background-image:url(/webImg/nuurBk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+#back h3 {
+    display: flex;
+    justify-content:center;
+
+}
+#corolla{
+    width: 100%;
+     height:325px;
+    background-color: antiquewhite;
+}
+
+#corolla img {
+    background-color: #50577A;
+    width: 50%;
+     height:325px;
+    float: left; 
+    object-fit: contain;
+}
+#corolla .text  {
+    display:grid;
+    place-items:center;
+    width: 50%;
+   float: right;
+   
+}
+
+#corolla .text p {
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    
+}
+
+/*footer */
+
+footer{
+    background-color: #444;
+    color:aliceblue;
+    height: 500;
+}
+footer .line{
+    margin-top: 20px;
+    border-style: solid none none;
+}
+footer .company {
+    display: inline;
+    padding: 10px 40px ;
+    position: relative;
+    top: 20px;
+}
+
+footer ul{
+    float: right;
+    list-style: none;
+}
+footer ul li{
+    float: left;
+
+}
+footer ul li a{
+    display: block;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+/*Company*/
+.main
+{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    justify-items: center;
+}
+.const{
+    width: 700px;
+}
+.const h1{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font: lighter;
+}
+.const .image1{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+.image1 img{
+    height:auto;
+    width: 400px; 
+}
+.const h3{
+    font-weight: bold;
+}
+.const p{
+    line-height: 1.4;
+}
+
+
+/*Cartools*/
+.carmain{
+    position: relative;
+  
+    height: 160px;
+}
+.carmain .climage{
+    padding: 10px 40px 10px 10px;
+    float: left;
+}
+.climage img{
+    width: 300px;
+}
+.carmain .textdiv{
+    width:65%;
+    float: right;
+    padding: 0 0 0 20px;
+}
+ 
+.list{
+   padding-top: 30px;
+}
+ 
+.list ul{
+    list-style: none;
+}
+
+.list ul li{
+    float: left;
+}
+
+.list ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center; 
+    text-decoration: none;
+    color: black;
+}
+.list ul li a:hover {
+    background: #444;
+    color: #dfd0c2;
+    border-radius: 4px;
+    text-decoration: dashed;
+  }
+
+.box{
+    padding-top: 30px;
+}
+.box{
+    line-height: 1,2em;
+}
