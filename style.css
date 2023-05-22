@@ -190,6 +190,28 @@ footer ul li a{
 .box{
     padding-top: 30px;
 }
-.box{
-    line-height: 1,2em;
+/* cars main.html and nav.html*/
+
+.main2 a img{
+    width: 250px;
 }
+
+    
+.main2 button{
+    margin:10px 20px;
+    color: gray;
+    border:none;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    display: block;
+}
+
+.main2 button:hover {
+    background-color: #534f46;
+  }
+  
+.main2 button:active {
+    background-color: #534f46;
+  }
